@@ -1,0 +1,11 @@
+import numpy as np
+print("Addition of array..")
+array1=np.array([[1,2],[3,4]])
+array2=np.array([[5,6],[7,8]])
+array3=np.add(array1,array2)
+print("multiplication of array")
+array4=np.multiply(array1,array2)
+print("\n array1\n",array1)
+print("\narray2 \n",array2)
+print("\n addition is\n",array3)
+print("\n product is \n",array4)
