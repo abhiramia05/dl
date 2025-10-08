@@ -29,16 +29,3 @@ plot_tree(clf,
           rounded=True)
 plt.title("Decision Tree for Iris Dataset")
 plt.show()
-
-
-print("Enter the sample data:")
-a = float(input("Enter sepal length in cm: "))
-b = float(input("Enter sepal width in cm: "))
-c = float(input("Enter petal length in cm: "))
-d = float(input("Enter petal width in cm: "))
-
-sample = [[a, b, c, d]]
-pred = clf.predict(sample)
-pred_v = [iris.target_names[p] for p in pred]
-print("Predicted class:", pred_v[0])
-
